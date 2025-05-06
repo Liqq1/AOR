@@ -1,9 +1,9 @@
-# AOR: Anatomical Ontology-Guided Reasoning for Medical Large Multimodal Model
+# AOR: Anatomical Ontology-Guided Reasoning for Medical Large Multimodal Model in Chest X-Ray Interpretation
 
 
 ## Updates
 
-* **[2025/04/15]** We released our research paper on arXiv.
+* **[2025/05/05]** We released our research paper on [arXiv](https://arxiv.org/abs/2505.02830).
 
 ## TODO List
 
@@ -39,7 +39,7 @@ pip install flash-attn --no-build-isolation
 
 AOR is trained on 4 NVIDIA A100 GPUs with the following code.
 
-### Explanation of Environment Variables
+#### Explanation of Environment Variables
 
 ```
 ONLY_SPI: Whether train spi module (region feature extractor) only.
@@ -49,17 +49,17 @@ CLIP: Use openai/CLIP instead of BioCLIP.
 V15: Use LLaVA v1.5 instead of LLaVA v1.
 ```
 
-### STAGE 1
+#### STAGE 1
 ```Shell
 bash train_stage1.sh
 ```
-### STAGE 2
+#### STAGE 2
 
 ```Shell
 bash train_stage2.sh
 ```
 
-### STAGE 3
+#### STAGE 3
 
 ```Shell
 bash train_stage3.sh
