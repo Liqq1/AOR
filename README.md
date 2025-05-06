@@ -14,13 +14,13 @@
 
 ## Install
 1. Clone the `AOR`
-```python
+```
 git clone https://github.com/Liqq1/AOR
 cd AOR
 ```
 
 2. Create the env
-```shell
+```
 conda create -n aor python=3.10 -y
 conda activate aor
 pip install --upgrade pip  # enable PEP 660 support
@@ -50,18 +50,18 @@ V15: Use LLaVA v1.5 instead of LLaVA v1.
 ```
 
 #### STAGE 1
-```Shell
+```
 bash train_stage1.sh
 ```
 #### STAGE 2
 
-```Shell
+```
 bash train_stage2.sh
 ```
 
 #### STAGE 3
 
-```Shell
+```
 bash train_stage3.sh
 ```
 
