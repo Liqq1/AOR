@@ -5,6 +5,7 @@
 
 * **[2025/05/05]** We released our research paper on [arXiv](https://arxiv.org/abs/2505.02830).
 
+
 ## TODO List
 
 - [ ] Release Full training code
@@ -28,10 +29,17 @@ pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https
 pip install setuptools_scm
 pip install --no-cache-dir -e .
 ```
+
 3. Install the `flash-attn` package
 ```
 pip install ninja
 pip install flash-attn --no-build-isolation
+```
+
+4. Install the `mmcv-1.4.7` package
+```
+cd mmcv-1.4.7
+MMCV_WITH_OPS=1 pip install -e .
 ```
 
 
@@ -64,6 +72,7 @@ bash train_stage2.sh
 ```
 bash train_stage3.sh
 ```
+
 
 ## Acknowledgement
 
