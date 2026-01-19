@@ -14,7 +14,7 @@ export V15=1
 WANDB_API_KEY=xxxxx WANDB_MODE=$WANDB_MODE CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nnodes=1 --nproc_per_node=4 --master_port=25001 \
     aor/train/train.py \
     --model_name_or_path ../ckpt/llava-v1.5/ \
-    --dataset_config ./aor/configs/test_train.py \
+    --dataset_config ./aor/configs/stage12.py \
     --vision_tower openai/clip-vit-large-patch14-336 \
     --mm_vision_select_layer -2 \
     --mm_use_im_start_end False \

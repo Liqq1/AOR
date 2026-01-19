@@ -35,8 +35,6 @@ import wandb
 from transformers.trainer_callback import TrainerCallback
 
 
-# TODO: import and use code from ../data/dataset.py
-
 IGNORE_INDEX = -100
 DEFAULT_PAD_TOKEN = "[PAD]"
 DEFAULT_EOS_TOKEN = "</s>"
