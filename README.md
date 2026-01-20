@@ -8,7 +8,7 @@
 
 ## TODO List
 
-- [ ] Release Full training code
+- [x] Release Full training code
 - [ ] Release AOR-Instruction data
 - [ ] Implementation Guide
 
